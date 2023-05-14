@@ -1,0 +1,8 @@
+[Game]
+
+In this game you've to catch the Right Pokemon. There's 2 evil pokemons and
+1 Good pokemon. If you catch the Good One, you'll win. If you catch bad ones,
+Game is Over.
+
+Hint: 
+Middle one is Good One, Other 2 are bad ones.

@@ -1,0 +1,31 @@
+The Phanes Engine is my own made made on top of GLIB graphics library.
+It's custom engine which has Render, Physics and Collision Component to make
+some very simple games.
+
+Here are the modules of My Engine(Chronologically)
+
+1.GameObject: This is the base of every object that'll appear in the Game
+
+2.Renderer: This module is responsible for all the loading and displaying sprites. The Rendering component that each gameobject can attach to display in the window.
+
+3.Physics: This module is responsible for all physics based calculations.It Takes input from controller and based on the force it calculates acceleration, velocity and updates the position of the Gameobject in the world.
+
+4.Pointers: This module consists custom Smart pointer and Weak Pointer class. In this engine I use Pointers as a reference of the actual game object and assign Ownership and Observer role to different components.
+
+5.JSON: This module consists Custom Component creator which is part data from JSON file and create and assign components based on that. I've used a open sourced JSON parser in this.
+
+6.Job System: This module is reponsible for multithreading and parralal processing. This module is an external module which I've integrated in my engine to harness Multithreading in my engine.
+
+7.Math: This Module consists custom Point2D, Vector2D,Vector4D and Matrix4D class which is very helpful for my other components. This module also consist custom SSE-SIMD functions for optimization.
+
+8.Collision: This part is reponsible for calculating collision using Swept Axis Theorem which calculates collision between two AABBs(Axis Alligned Bounding Box).
+
+9. Application: This module is responsible for Engine startup & Shutdown.
+
+10. Containers: This Module is a namespace for MasterList which initially was designed to hold reference of all gameobjects.
+
+11.Data: This module holds all JSON files for all Gameobjects.
+
+12.Timing: This module is reponsible to calculate timing using CPU ticks and FrameTime.
+
+13. Log: External Log class to print useful data for debug purposes.

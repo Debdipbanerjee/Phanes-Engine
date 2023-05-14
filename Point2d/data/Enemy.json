@@ -1,0 +1,19 @@
+{
+  "name": "enemy1",
+  "position": [ 120.0, 150.0 ],
+  "velocity": [ 0.0, 0.0 ],
+
+  "components": {
+
+    "physics": {
+      "mass": 3.0
+    },
+    "render": {
+      "sprite": "data\\p1.dds"
+    },
+    "collision": {
+      "centre": [ 0, 0 ],
+      "extents": [ 80, 80 ]
+    }
+  }
+}

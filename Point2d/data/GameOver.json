@@ -1,0 +1,19 @@
+{
+  "name": "enemy1",
+  "position": [ 0.0, -250.0 ],
+  "velocity": [ 0.0, 0.0 ],
+
+  "components": {
+
+    "physics": {
+      "mass": 1.0
+    },
+    "render": {
+      "sprite": "data\\GameOver.dds"
+    },
+    "collision": {
+      "centre": [ 0, 0 ],
+      "extents": [ 0, 0 ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "temp",
+  "position": [ -180.0, -100.0 ],
+  "velocity": [ 0.0, 0.0 ],
+
+  "components": {
+
+    "physics": {
+      "mass": 3.0
+    },
+    "render": {
+      "sprite": "data\\Girl.dds"
+    },
+    "collision": {
+      "centre": [ 0, 0 ],
+      "extents": [ 128, 128 ]
+    }
+  }
+  }
